@@ -1,0 +1,132 @@
+/*
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Notable', sans-serif;
+*/
+
+/* GLOBAL */
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F6F3F0;
+}
+
+hr {
+    border-bottom: 1px solid black;
+}
+
+p {
+    text-transform: uppercase;
+    margin-top: 35px;
+    max-width: 60%;
+}
+
+/* TITRE */
+h1 {
+    margin: 50px 50px 10px 50px;
+    font-family: 'Notable', sans-serif;
+    font-size: 4em;
+}
+
+/* MENU */
+ul {
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+ul li {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color: black;
+    transition: width .3s;
+}
+
+ul li a:hover:after {
+    width: 100%;
+}
+
+/* CHOIX UTILISATEUR */
+#choix {
+    max-width: 1050px;
+}
+
+#choix img {
+    width: 15%;
+    margin: 5%;
+}
+
+/* ENCART RESULTAT */
+#resultat {
+    width: 100%;
+    max-width: 1050px;
+    min-height: 300px;
+    background-color: #E4DCD3;
+    border: 2px solid black;
+}
+
+#resultat img {
+    width: 6%;
+    margin: 2%;
+    background-color: #E4DCD3;
+    display: inline-block;
+}
+
+#resultat p {
+    background-color: #E4DCD3;
+    display: inline-block;
+}
+
+#resultat p:first-of-type {
+    float: left;
+    padding-left: 25px;
+}
+#resultat p:last-of-type {
+     float: right;
+    padding-right: 25px;
+    padding-left: 5%;
+ }
+
+#wol {
+    background-color: #E4DCD3;
+    font-size: 2.3em;
+    font-family: 'Notable', sans-serif;
+    margin: 20px auto;
+    padding: 7px;
+}
+
+span {
+    font-size: 1.3em;
+    background-color: #E4DCD3;
+}
+
+h6 {
+    font-size: 1em;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 2%;
+    font-weight: lighter;
+    text-transform: uppercase;
+    background-color: #E4DCD3;
+}
+
+h6:first-of-type {
+    float: left;
+}
+h6:last-of-type {
+    float: right;
+}
