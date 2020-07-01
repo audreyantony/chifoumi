@@ -11,7 +11,7 @@
     <body>
         <H1>Chifoumi</H1>
         <ul>
-            <li><a href="?page=chifoumi">Acceuil</a></li>
+            <li><a href="?page=chifoumi">Accueil</a></li>
             <li><a href="?page=regles">Les règles</a></li>
         </ul>
         <section>
@@ -50,7 +50,7 @@
             }
 
             function choixPC(){
-                pc = Math.round(Math.random()*2)+1;
+                pc = (Math.random() < 0.33) ? 1 : (Math.random() < 0.66) ? 2 : 3;
                 document.choixpc.src = 'img/choix'+pc+'.png';
                 chifoumiWin();
             }

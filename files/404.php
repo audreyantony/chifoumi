@@ -12,7 +12,7 @@
 <body>
 <H1>Chifoumi</H1>
 <ul>
-    <li><a href="?page=chifoumi">Acceuil</a></li>
+    <li><a href="?page=chifoumi">Accueil</a></li>
     <li><a href="?page=regles">Les règles</a></li>
 </ul>
 <hr>
